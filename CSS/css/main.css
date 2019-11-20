@@ -1,0 +1,53 @@
+body{
+    --main-font-color:rgb(55,202,26)
+}
+
+header h1
+{  
+  color: var( --main-font-color);  
+}
+p{
+/* font-size: 18px;
+font-size: 1rem; */
+/* font-size: 1.4em;
+font-weight: 700; */
+font-weight: bold;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* #root{
+
+    background-color: maroon;
+} */
+
+.color1
+{
+    color: brown
+}
+.color2
+{
+    color:darkgreen
+}
+.list
+{
+    list-style: none;
+    
+}
+.external{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-color:darkviolet;
+  
+}
+.internal{
+    width: 150px;
+    height: 100px;
+    background-color: darkred;
+    margin: 46 auto;    
+}

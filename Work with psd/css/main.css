@@ -1,0 +1,16 @@
+body{
+    --main-font-color:rgb(0,33,87)
+    --font-color:rgb(119,119,119)
+    
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    font-size: 36px;
+    text-align: center;
+    color:var (--main-font-color);
+}
+.h1Class{
+    margin: 0 auto; text-align: center;
+    width: 700px;
+}
