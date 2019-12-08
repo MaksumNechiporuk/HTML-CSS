@@ -2,20 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/main.css" />
+    />  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
     <div class="container-fluid firstElement">
-      <div class="container ">
+      <div class="container">
         <img src="image/icon_phone.png" />
         <p class="text">Toll for free: +1-(202)-555-0194</p>
         <img class="imgPhone" src="image/icon_phone_2.png" />
@@ -28,14 +31,76 @@
           </p>
         </div>
       </div>
-      <div class="container">
-        <img class="logoImg" src="image/logo.png" />
+      <div class="container">    
+          <div>         
+            <nav class="navbar navbar-expand-lg">
+              <img src="image/logo.png"/>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link textMenu" href="#">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textMenu" href="#">About</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link textMenu" href="#">Service & Sprices</a>
+                  </li>      
+                  
+                  <li class="nav-item active">
+                    <a class="nav-link textMenu" href="#">How it work <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textMenu" href="#">Discounts</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link textMenu" href="#">Order now</a>
+                  </li>   
+                  <li class="nav-item active">
+                    <a class="nav-link textMenu" href="#">Faq <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textMenu " href="#">Tesimonials</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link textMenu" href="#">Blog</a>
+                  </li>      <li class="nav-item" >
+                    <a class="nav-link textMenu" href="#">Samples</a>
+                  </li>  
+                </li>      <li class="nav-item" >
+                  <a class="nav-link textMenu" href="#">Login</a>
+                </li> 
+                </ul>
+              </div>
+            </nav>
+        </div>
+  
 
-        <p class="textMenu">
-          Home About Service&Sprices How it works Discounts Order Now FAQ
-          Tesimonials Blog Samples Login
-        </p>
       </div>
+      <div class="container-fluid color4">
+          <div class="container">
+        <div class="container main color4">
+            <div class="row">
+                <div class="col">
+                    <div class="btn">
+                        <a class="btnLiveChat" href="#"><img src="image/arrow.jpg" alt=""> Live Chat</a>
+                    </div>
+                    <div class="btn"><a class="btnOrder" href="#">Order Now</a></div>
+                    <div class="TextMain">
+                        <h1 id="Service">Custom Writing service</h1>
+                        <div id="Key">The key to seccess</div>
+                        <div id="Place">You are the right place</div>
+                        <div id="Quality">EssayService.com is a top quality writing service </div>
+                    </div>
+  
+                </div>
+            </div>
+        </div>
+          </div>
+    </div>
       <div class="container">
         <div class="h1Class">
           <h1>
@@ -85,8 +150,30 @@
           </p>
         </div>
       </div>
+  
     </div>
 
+
+   
+    <!-- <div class="container-fluid MainColor">
+      <div class="container main MainColor">
+          <div class="row">
+              <div class="col">
+                  <div class="btn">
+                      <a class="btnLiveChat" href="#"><img src="image/arrow.jpg" alt=""> Live Chat</a>
+                  </div>
+                  <div class="btn"><a class="btnOrder" href="#">Order Now</a></div>
+                  <div>
+                      <h1 id="Service">Custom Writing service</h1>
+                      <div id="Key">The key to seccess</div>
+                      <div id="Place">You are the right place</div>
+                      <div id="Quality">EssayService.com is a top quality writing service </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div> -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -102,5 +189,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+
+   
   </body>
 </html>

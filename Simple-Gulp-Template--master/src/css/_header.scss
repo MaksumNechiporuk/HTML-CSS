@@ -1,0 +1,137 @@
+header {
+  .bg1 {
+    padding: 20px 0;
+    background-size: cover;
+    background-image: url("../img/Head/BgDark2.svg");
+  }
+  .textMenu {
+    text-align: center;
+    @include font(20px, $font-roboto_condesedregular, $txt-color-2, 100);
+    text-transform: uppercase;
+  }
+  .textMenuPadding {
+    padding-bottom: 10px;
+    padding: 0 28px;
+
+    border-left: 2px solid $txt-color-2;
+  }
+  .textMenu:hover {
+    color: $bg-primary-2;
+    text-decoration: none;
+  }
+  .menuBg {
+    margin-top: 7px;
+  }
+  .menuBg:hover {
+    background: $bg-primary-3;
+    height: 30px;
+  }
+  .menu {
+    display: inline-block;
+    align-items: center;
+  }
+  .bg2 {
+    background-color: $bg-primary-2;
+  }
+  .top--header_butons {
+    text-align: right;
+    a {
+      text-align: left;
+    }
+  }
+  .btn--header_login:first-child {
+    margin-right: 30px;
+  }
+  .top--header_toll {
+    @include font(20px, $font-roboto_thin, $btn--color-primary_2--hover, 100);
+  }
+  .top--header__numbers {
+    @include font(
+      20px,
+      $font-roboto_condesedregular,
+      $btn--color-primary_2--hover,
+      600
+    );
+    text-decoration: none;
+  }
+  .after-header {
+    background-image: url("../img/Head/layers.svg");
+    background-position: 50%;
+    height: 588px;
+    box-shadow: inset 2px 4px 7px #95aeb6;
+  }
+  .Logo {
+    margin-top: 20px;
+    padding: 60px 0;
+    width: 597px;
+    height: 82px;
+    display: inline-block;
+    background-image: url("../img/Head/Logo.svg");
+    background-repeat: no-repeat;
+  }
+  h1 {
+    margin-bottom: 0;
+    width: 600px;
+    height: 91px;
+    @include font(32px, $font-roboto_bold, $btn--color-primary_2, 700);
+    background-color: #caddea;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 2px 4px 7px rgba(155, 182, 190, 0.55);
+    padding: 15px 0;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 166px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 32px 31px 0 0;
+    border-color: #caddea transparent transparent;
+  }
+  h3 {
+    @include font(22px, $font-roboto_medium, #000, 500);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 40px 0 20px;
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      color: $bg-primary-2;
+    }
+    li span {
+      color: black;
+    }
+  }
+  .header-links {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 358px;
+    width: 555px;
+    height: 160px;
+  }
+  .btn-header-links {
+    @include font(
+      18px,
+      $font-roboto_condesedregular,
+      $btn--color-primary_1,
+      400
+    );
+    margin: 10px;
+    width: 230px;
+    height: 35px;
+    border: 1px solid $btn--color-primary-1;
+    display: inline-block;
+    line-height: 18px;
+    padding: 10px 0;
+  }
+  .btn-header-links:hover {
+    background-color: red;
+  }
+}
